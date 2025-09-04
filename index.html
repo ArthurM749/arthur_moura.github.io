@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Domínio de ArthurM</title>
+  <title>Portfólio de ArthurM</title>
   <style>
     body {
       margin: 0;
@@ -13,33 +13,89 @@
       color: #333;
       display: flex;
       justify-content: center;
-      align-items: center;
-      height: 100vh;
+      align-items: flex-start;
+      min-height: 100vh;
+      padding: 20px;
     }
 
     .container {
-      text-align: center;
+      max-width: 800px;
+      width: 100%;
       background-color: #ffffff;
       padding: 40px;
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
 
-    h1 {
-      font-size: 2em;
-      margin-bottom: 10px;
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 20px;
     }
 
     p {
-      font-size: 1.2em;
-      color: #666;
+      font-size: 1.1em;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      background: #f4f4f4;
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .projetos a {
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Eu sou o Arthur</h1>
-    <p>Esse é o domínio de meu site.</p>
+    <h1>Arthur M</h1>
+    <p style="text-align:center;">💻 Desenvolvedor Web | Estudante de Ciência da Computação</p>
+
+    <h2>👋 Sobre Mim</h2>
+    <p>🎓 Estudante de Ciência da Computação.<br>
+       💻 Desenvolvo aplicações web com foco em PHP e MySQL.<br>
+       🔒 Pratico boas práticas, arquitetura de software e segurança.<br>
+       🚀 Evoluindo para Desenvolvedor Pleno, ampliando conhecimento em novas tecnologias.<br>
+       🧩 Resolvo problemas e compartilho conhecimento através de projetos e estudos.
+    </p>
+
+    <h2>🛠 Tecnologias & Ferramentas</h2>
+    <ul>
+      <li><strong>Principais:</strong> PHP, MySQL, HTML5, CSS3, JavaScript</li>
+      <li><strong>Ferramentas:</strong> Git, VSCode</li>
+    </ul>
+
+    <h2>📌 Projetos em Destaque</h2>
+    <div class="projetos">
+      <p>
+        <a href="https://github.com/ArthurM749/Projeto-de-Faculdade-site-Lembrete-de-Medicamentos" target="_blank">
+          LembreMed
+        </a> — Site para cadastrar lembretes de medicamentos (cadastro, login, histórico, UI responsiva e foco em usabilidade e segurança).
+      </p>
+      <p><em>Mais projetos em breve...</em></p>
+    </div>
+
+    <h2>📬 Contato</h2>
+    <p>Email: <a href="mailto:arthurmccomp@gmail.com">arthurmccomp@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/ArthurM749" target="_blank">github.com/ArthurM749</a></p>
   </div>
 </body>
 </html>
